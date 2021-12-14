@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/homework1/homework1.ko := ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/ubuntu/homework1/homework1.ko /home/ubuntu/homework1/homework1.o /home/ubuntu/homework1/homework1.mod.o;  true
