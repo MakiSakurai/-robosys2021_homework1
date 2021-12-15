@@ -9,11 +9,24 @@ Raspberry Pi4 ModelB 4GBを使って、入力された文字からサーボモ�
 - RaspberryPi4
 - NUCLEO-F303K8
 - マイクロサーボ　ＳＧ９２Ｒ
-- USBケーブル TypeC
 - ブレッドボード
 - ジャンパ線(オス×オス)：6個
 
 ### 回路図
+
+![Image 1](img/kairo1.png)
+
+### 実際に取り付けた画像
+
+![Image 2](img/haisen.JPG)
+
+## 応用編で必要なもの
+- ケージ
+- ペットボトルキャップ
+- テープ
+- ハムスター
+- ハムスター用の餌
+- 受け皿
 
 ## 使用方法
 
@@ -31,6 +44,12 @@ echo e > /dev/homework0
 次のコマンドを実行すると、サーボモータが回転と戻る動きを数回繰り返します。
 ```
 echo n > /dev/homework0
+```
+
+プログラムの内容を変更したりする際に、もう一度sudo insmod homework1.koする場合は、次を実行してからsudo insmod homework1.koを実行してください。
+
+```
+sudo rmmod homework1
 ```
 
 ### 実際に動かしている様子
