@@ -29,9 +29,18 @@ Raspberry Pi4 ModelB 4GBを使って、入力された文字からサーボモ�
 - 受け皿
 
 ## 使用方法
+### Mbedの用意
+~Mbedのアカウントが作成されていることを前提としています~
+
+- https://os.mbed.com/users/nikuman/code/RS1/ をクリックして、**Import into Compiler**を選択
+- Importしたら、マイプログラムにRS1ファイルが作成されていることを確認
+- Select a Platformは**NUCLEO-F303K8**を選択
+- コンパイルして書き込む
+
+### git cloneから実行まで
 
 ```
-https://github.com/MakiSakurai/robosys2021_homework1.git
+git clone https://github.com/MakiSakurai/robosys2021_homework1.git
 cd robosys2021_homework1/homework1
 make
 sudo insmod homework1.ko
