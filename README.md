@@ -30,7 +30,7 @@ Raspberry Pi4 ModelB 4GBを使って、入力された文字からサーボモ�
 
 ## 使用方法
 ### Mbedの用意
-~Mbedのアカウントが作成されていることを前提としています~
+〜Mbedのアカウントが作成されていることを前提としています〜
 
 - https://os.mbed.com/users/nikuman/code/RS1/ をクリックして、**Import into Compiler**を選択
 - Importしたら、マイプログラムにRS1ファイルが作成されていることを確認
